@@ -1,0 +1,45 @@
+body,
+button,
+input,
+select,
+textarea {
+  font:
+    300 1em/1.8 PingFang SC,
+    Lantinghei SC,
+    Microsoft Yahei,
+    Hiragino Sans GB,
+    Microsoft Sans Serif,
+    WenQuanYi Micro Hei,
+    sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+#app {
+  margin: auto;
+  max-width: 996px;
+}
+
+.checkbox {
+  display: flex;
+  gap: 5px;
+}
+
+.checkboxs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.outputs {
+  min-height: 600px;
+}
